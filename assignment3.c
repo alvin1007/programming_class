@@ -11,7 +11,7 @@ int main()
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (num[i] < num[j])
+			if (num[i] > num[j])
 			{
 				temp = num[j];
 				num[j] = num[i];
